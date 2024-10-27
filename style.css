@@ -11,32 +11,6 @@ body {
     color: #333;
 }
 
-/* Navbar Styles */
-#navbar {
-    background-color: #b80000; /* Festive red */
-    padding: 10px;
-    text-align: center;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.nav-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.1em;
-    padding: 8px 15px;
-}
-
-.nav-link:hover {
-    background-color: #900000; /* Darker red */
-    border-radius: 5px;
-}
 
 /* Main Content Styles */
 .main-content {
@@ -45,93 +19,20 @@ body {
 }
 
 h1, h2, head {
-    color: #b80000;
+    color: #013927;
     margin-bottom: 15px;
 }
 
 .head {
     font-size: 2em;
-    color: #b80000;
-}
-
-.party-details p, .message p, .footer p {
-    font-size: 1em;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-/* Party Details and Message */
-.party-details, .message {
-    background-color: #ffffff;
-    padding: 15px;
-    margin: 10px auto;
-    max-width: 500px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Gallery Section */
-.gallery {
-    text-align: center;
-    padding: 20px;
-}
-
-.gallery h1 {
-    color: #b80000;
-    margin-bottom: 20px;
-}
-
-.Prize-item {
-    display: inline-block;
-    margin: 15px;
-    text-align: center;
-}
-
-.Prize-item img {
-    width: 200px;
-    height: auto;
-    border: 3px solid #b80000;
-    border-radius: 10px;
-}
-
-.Prize-item h2 {
-    color: #b80000;
-    margin-top: 10px;
+    color: #013927;
 }
 
 /* Footer */
 .footer {
-    background-color: #b80000;
+    background-color: #013927;
     color: #ffffff;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
-}
-
-/* Responsive Styling */
-@media (max-width: 600px) {
-    /* Stack navbar items on mobile */
-    .nav-links {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-    .nav-link {
-        font-size: 1em;
-    }
-
-    /* Adjust layout of main content */
-    .party-details, .message {
-        padding: 10px;
-        max-width: 90%;
-    }
-
-    /* Resize gallery images for mobile */
-    .gallery h1 {
-        font-size: 1.5em;
-    }
-
-    .Prize-item img {
-        width: 150px;
-    }
 }
