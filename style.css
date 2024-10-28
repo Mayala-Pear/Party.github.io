@@ -16,6 +16,18 @@ body {
     padding: 0;
 }
 
+/* Navbar styling */
+.navbar {
+    background-color: #013927; /* Dark green background */
+    color: #f70505;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+
 /* Main content styling */
 .main-content {
     display: flex;
